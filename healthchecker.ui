@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HealthChecker</class>
+ <widget class="QDialog" name="HealthChecker">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="B3">
+   <property name="geometry">
+    <rect>
+     <x>-200</x>
+     <y>-20</y>
+     <width>1081</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(212, 239, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>391</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 900 italic 18pt &quot;Segoe UI&quot;;
+font: 900 italic 16pt &quot;Segoe UI&quot;;
+text-decoration: underline;
+color: rgb(85, 170, 127);</string>
+   </property>
+   <property name="text">
+    <string>Enter your health information below.</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>100</y>
+     <width>337</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="styleSheet">
+           <string notr="true">font: 700 italic 14pt &quot;Segoe UI&quot;;
+text-decoration: underline;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Blood Pressure Level</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="styleSheet">
+             <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>SystolicBP (60 - 220) :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="systolicBP"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="styleSheet">
+             <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>DiastolicBP (40 - 160) :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="diastolicBP"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="styleSheet">
+           <string notr="true">font: 700 italic 14pt &quot;Segoe UI&quot;;
+text-decoration: underline;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Glucose Level</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="styleSheet">
+             <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>FastingGlucose (40 - 300) :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="fastingGlucose"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="styleSheet">
+             <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Hba1c  (4 -15) :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="hba1c"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="styleSheet">
+           <string notr="true">font: 700 italic 14pt &quot;Segoe UI&quot;;
+text-decoration: underline;
+color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Cholesterol Level</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="styleSheet">
+             <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>LdlCholesterol (50 - 250) :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="ldlCholesterol"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="styleSheet">
+             <string notr="true">font: 700 9pt &quot;Segoe UI&quot;;
+font: 600 9pt &quot;Segoe UI&quot;;</string>
+            </property>
+            <property name="text">
+             <string>HdlCholesterol (20 - 100) :</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="hdlCholesterol"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QPushButton" name="Submit">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(251, 255, 171);
+color: rgb(0, 0, 0);
+font: 700 9pt &quot;Segoe UI&quot;;
+color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
